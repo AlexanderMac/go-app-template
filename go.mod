@@ -1,3 +1,3 @@
-module todo
+module github.com/AlexanderMac/repo-template-go
 
-go 1.18
+go 1.20
