@@ -6,7 +6,7 @@
 
 ### Features
 TODO
-- Golang v1.21
+- Golang v1.23
 
 ### Install
 TODO
