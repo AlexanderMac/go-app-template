@@ -1,8 +1,14 @@
 # go-app-template
 
-[![Build Status](https://github.com/AlexanderMac/go-app-template/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexanderMac/go-app-template/actions/workflows/ci.yml)
-[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![GoDoc](https://pkg.go.dev/badge/github.com/alexandermac/go-app-template)](https://pkg.go.dev/github.com/alexandermac/go-app-template)
+<p align="center">
+  <h1 align="center">go-app-template</h1>
+  <p align="center">TODO: title</p>
+  <p align="center">
+    <a href="https://github.com/alexandermac/go-app-template/actions/workflows/ci.yml?query=branch%3Amaster"><img src="https://github.com/alexandermac/go-app-template/actions/workflows/ci.yml/badge.svg" alt="Build Status"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/alexandermac/go-app-template.svg" alt="License"></a>
+    <a href="https://pkg.go.dev/github.com/alexandermac/go-app-template"><img src="https://pkg.go.dev/badge/github.com/alexandermac/go-app-template" alt="npm version"></a>
+  </p>
+</p>
 
 ### Features
 TODO
