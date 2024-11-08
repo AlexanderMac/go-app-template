@@ -1,5 +1,3 @@
-# go-app-template
-
 <p align="center">
   <h1 align="center">go-app-template</h1>
   <p align="center">TODO: title</p>
