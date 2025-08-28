@@ -6,17 +6,18 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        go-version: ['1.23']
+        go-version: ['1.25']
     steps:
       - name: Fetch Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install Go
         uses: actions/setup-go@v5
         with:
           go-version: ${{ matrix.go-version }}
-      - name: Run linter
-        uses: golangci/golangci-lint-action@v6
+      - name: Run Linter
+        uses: golangci/golangci-lint-action@v8
         with:
-          version: latest
+          version: v2.4.0
+          args: --timeout=2m
       - name: Run Tests
         run: go test
